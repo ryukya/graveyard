@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<link rel="stylesheet" href="bootstrap-3.3.5/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap-3.3.5/dist/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="style2.css">
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div class="container-fluid">
+  <div class="page-header">
+<h1>GraveYard.Co</h1>
+<nav id="myNavbar" class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="container">
+        
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="omap.php">Maps</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="homeAdm.php">Home</a></li>
+                    <li><a href="profil.php">Grave Land Profile</a></li>
+                    <li class="dropdown">
+                        <a href="Gravelist.php" data-toggle="dropdown" class="dropdown-toggle">Grave <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Gravelist.php">Grave List</a></li>
+                            <li><a href="order.php">Order List</a></li>
+                            <li><a href="omap.php">Map-Placement</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Admin <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="fam.php">Family Request</a></li>
+                            <li><a href="admP.php">Admin Profile</a></li><li><a href="index.html">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+</div>
+<div id="page-wrap">
+	<h1>Order List </h1>
+  
+	<p>&nbsp;</p>
+    
+	<table>
+		<thead>
+		<tr>
+			<th width="21">No.</th>
+			<th width="139">Email</th>
+			<th width="163">Order Date </th>
+			<th width="101">RIP on </th>
+			<th width="65">Stones Name </th>
+			<th width="66">Type</th>
+			<th width="184">Location</th>
+			<th width="93">Family_Id</th>
+			<th width="47">GPA</th>
+			<th width="153">Arbitrary Data</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td>1</td>
+			<td>home@gmail.com</td>
+			<td>18-05-2013</td>
+			<td>12-05-2013</td>
+			<td>Trek</td>
+			<td>Rose</td>
+			<td>January 13, 1979</td>
+			<td>Gotham City</td>
+			<td>3.1</td>
+			<td>RBX-12</td>
+		</tr>
+		<tr>
+		  <td>2</td>
+		  <td>Mess@rocketmail.com</td>
+		  <td>18-05-2013</td>
+		  <td>12-05-2013</td>
+		  <td>Wars</td>
+		  <td>Rose</td>
+		  <td>July 19, 1968</td>
+		  <td>Athens</td>
+		  <td>N/A</td>
+		  <td>Edlund, Ben (July 1996).</td>
+		</tr>
+		<tr>
+		  <td>3</td>
+		  <td>Homura@yahoo.co.id</td>
+		  <td>18-05-2013</td>
+		  <td>12-05-2013</td>
+		  <td>Smurf</td>
+		  <td>Smurflane </td>
+		  <td>Smurfuary Smurfteenth, 1945</td>
+		  <td>New Smurf City</td>
+		  <td>4.Smurf</td>
+		  <td>One</td>
+		</tr>
+		</tbody>
+	</table>
+	
+	</div></div>
+
+
+
+<div class="col-sm-offset-2 col-sm-10">
+  <button type="submit" class="btn btn-default">Save</button>
+  <button type="submit" class="btn btn-default">Print</button>
+</div>
+<div class="page-header">
+<h2>"Every begining have its own end"</h2>
+</div>
+ <div class="panel-footer">
+ <h5> @Universitas Jember 2015</h5></div>
+</div>
+</body>
+</html>
